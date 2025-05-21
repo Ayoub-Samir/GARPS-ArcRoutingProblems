@@ -27,7 +27,7 @@ Each document includes a table structured as follows:
   - Benavent's heuristic
 - **Relative Change %**: The percentage increase or decrease in cost between our heuristic and each respective comparison heuristic, calculated as:
 
-## 📌 Notes
+## Notes
 
 - All cost values are expressed in the same units (consistent with each dataset’s source).
 - The emphasis of these tables is to **compare the trade-off between solution quality and time complexity**.
