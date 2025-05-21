@@ -7,8 +7,8 @@ This folder contains the full Python implementation of our custom heuristic for 
 - `graph.py`: Graph structure and node-to-edge mapping.
 - `edge.py`: Edge class with source, destination, cost, and required status.
 - `util.py`: Input file parsers for different problem types (DRPP, MCPP, WRPP, Additional Cases).
-- `atlas.py`: The core heuristic algorithm implementation.
-- `main.py`: Main entry point for running the heuristic on a selected instance.
+- `atlasCycle.py`: The core heuristic algorithm implementation.
+- `mainCycle.py`: Main entry point for running the heuristic on a selected instance.
 
 ---
 
@@ -16,7 +16,7 @@ This folder contains the full Python implementation of our custom heuristic for 
 
 To run the heuristic on any dataset:
 
-1. **Open `main.py`**
+1. **Open `mainCycle.py`**
    - Change the `folder_path` variable to point to the dataset you want to run.
    - Example:
      ```python
@@ -30,5 +30,5 @@ To run the heuristic on any dataset:
 
 3. **Run the script**
    ```bash
-   python main.py
+   python mainCycle.py
 
